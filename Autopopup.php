@@ -11,17 +11,14 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!--Animation css CDNs 	 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <style>
-  .popup{
-  animation-delay: 3s;
-  margin-top: 15%;
-	}	
-
-  </style>
 </head>
+  <style>
+	  .popup{
+	  animation-delay: 3s;
+	  margin-top: 15%;
+		}
+  </style>
 <body>
-
-
   <!-- The Modal -->
 <div id="p" class="popup animated bounceIn">
     <div class="modal-dialog">
@@ -41,7 +38,7 @@
         </div>
       </div>
     </div>
-  </div>
+ </div>
 <script>
 $(document).ready(function(){
   $(".btn1").click(function(){
@@ -52,6 +49,5 @@ $(document).ready(function(){
   });
 });
 </script>
-
 </body>
 </html>
